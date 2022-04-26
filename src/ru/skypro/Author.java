@@ -1,5 +1,6 @@
 package ru.skypro;
 
+
 public class Author {
     private String name1;
     private String name2;
