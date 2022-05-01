@@ -19,5 +19,15 @@ public class Main {
         System.out.println(triMushket.getBookName());
         System.out.println(triMushket.getAuthorName().getName1()+" "+triMushket.getAuthorName().getName2());
         System.out.println(triMushket.getData());
+
+
+        System.out.println(triMushket.equals(twentyYearsSpustya));
+        System.out.println(triMushket.hashCode());
+        System.out.println(twentyYearsSpustya.hashCode());
+
+        System.out.println(triMushket.toString());
+        System.out.println(author2.toString());
+
+        System.out.println(author1.equals(author2));
     }
 }
